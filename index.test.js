@@ -5,7 +5,7 @@ describe('GET /', () => {
   it('should return "KT3 App"', async () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toBe(200);
-    expect(res.text).toBe('Wrong');
+    expect(res.text).toBe('KT3 App');
   });
 });
 
